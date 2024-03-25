@@ -1,0 +1,87 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header img {
+    width: 200px;
+    height: 100px;
+}
+
+/* Navegación */
+nav {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+nav ul li a i {
+    width: 300px;
+}
+
+/* Estilizar select */
+select[name="salones"] {
+    color: green;
+    padding: 0px;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+/* Contenido principal */
+main {
+    background-color: beige;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
